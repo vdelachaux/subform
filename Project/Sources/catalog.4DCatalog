@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="subform" uuid="537E014BC1A44538B3020D2F96873058" collation_locale="en">
+	<schema name="DEFAULT_SCHEMA"/>
+</base>

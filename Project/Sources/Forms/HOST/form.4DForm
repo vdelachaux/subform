@@ -1,0 +1,79 @@
+﻿{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"Subform": {
+					"type": "subform",
+					"left": 201,
+					"top": 19,
+					"width": 233,
+					"height": 102,
+					"detailForm": "SUBFORM",
+					"borderStyle": "sunken",
+					"dataSource": "Form:C1466.subform"
+				},
+				"Button": {
+					"type": "button",
+					"text": "GOTO",
+					"top": 99,
+					"left": 21,
+					"width": 83,
+					"height": 22,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button.4dm"
+				},
+				"Input": {
+					"type": "input",
+					"left": 21,
+					"top": 19,
+					"width": 113,
+					"height": 17
+				},
+				"Input1": {
+					"type": "input",
+					"left": 21,
+					"top": 141,
+					"width": 403,
+					"height": 15,
+					"dataSource": "OBJECT Get name:C1087(Object with focus:K67:3)",
+					"enterable": false,
+					"focusable": false,
+					"borderStyle": "none",
+					"stroke": "#ff0000",
+					"fill": "transparent",
+					"fontSize": 11
+				}
+			},
+			"entryOrder": [
+				"Input",
+				"Button",
+				"Subform",
+				"Input1"
+			]
+		}
+	],
+	"geometryStamp": 22,
+	"method": "method.4dm"
+}
